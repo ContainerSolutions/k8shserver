@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: ReplicaSet
+metadata:
+  name: k8shserver
+spec:
+  replicas: 20
+  template:
+    metadata:
+      labels:
+        app: k8shserver
+    spec:
+      containers:
+        - name: k8shserver
+          image: containersol/k8shserver
+          imagePullPolicy: Always
+          resources:
+            requests:
+              cpu: 10m
+              memory: 10Mi
