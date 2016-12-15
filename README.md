@@ -2,9 +2,7 @@
 
 Before you start update `scripts/0-settings.sh` with your project name, domain. Then run:
 
-    ```
     . scripts/0-settings.sh
-    ```
 
 # build images (you can skip that. Images are already deployed to Docker Hub repository)
 1. make push
