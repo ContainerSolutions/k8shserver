@@ -5,7 +5,8 @@ Before you start update `scripts/0-settings.sh` with your project name, domain. 
     . scripts/0-settings.sh
 
 # build images (you can skip that. Images are already deployed to Docker Hub repository)
-1. make push
+
+    make push
 
 # running
 1. make sure you have `gcloud` utility
