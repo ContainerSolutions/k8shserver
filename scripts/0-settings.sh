@@ -1,5 +1,5 @@
-# this project create 3 clusters in 3 zones. FED_ZONE points to the one, which will be used to deploy feration plane
-export FED_ZONE=us-east1-b
+# this project create 3 clusters in 3 zones. FED_HOST_CLUSTER points to the one, which will be used to deploy feration plane
+export FED_HOST_CLUSTER=us-east1-b
 
 # Google Cloud project name
 export FED_PROJECT=<YOUR PROJECT e.g. company-project>
