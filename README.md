@@ -1,4 +1,6 @@
 # k8shserver
+Configuration files used in http://blog.kubernetes.io/2016/12/cluster-federation-in-kubernetes-1.5.html blog post. 
+
 Before you start update `scripts/0-settings.sh` with your project name, domain. Then run:
 
     . scripts/0-settings.sh
