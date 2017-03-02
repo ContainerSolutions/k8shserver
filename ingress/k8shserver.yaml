@@ -2,6 +2,8 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: k8shserver
+  annotations:
+    kubernetes.io/ingress.global-static-ip-name: "kubernetes-ingress"
 spec:
   backend:
     serviceName: k8shserver
