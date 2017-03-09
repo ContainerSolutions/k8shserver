@@ -3,6 +3,8 @@ kind: Ingress
 metadata:
   name: k8shserver
 spec:
+  tls:
+    - secretName: ing-secret
   backend:
     serviceName: k8shserver
     servicePort: 80
