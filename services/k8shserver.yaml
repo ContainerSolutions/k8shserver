@@ -4,7 +4,6 @@ metadata:
   labels:
     app: k8shserver
   name: k8shserver
-  nodePort: 30061
 spec:
   ports:
   - port: 80
